@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_second_app/pages/home.dart';
-import 'package:my_second_app/util/utilidades.dart';
 
 void main() {
   runApp(const MainApp());
@@ -18,9 +17,7 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Home(),
-      ),
-    );
+      home: Home()
+      );
   }
 }
