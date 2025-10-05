@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_second_app/pages/home.dart';
 import 'package:my_second_app/util/utilidades.dart';
 
 void main() {
@@ -18,18 +19,8 @@ class _MainAppState extends State<MainApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text(Util().titulo),
-          backgroundColor: ,
-        ),
-        body: home(),
+        body: Home(),
       ),
     );
-  }
-
-  Center home() {
-    return Center(
-        child: Text('Hello World!'),
-      );
   }
 }
